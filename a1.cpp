@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//g++ a1.cpp -o a1 && ./a1
 // Iterative Fibonacci: steps count loop iterations.
 long long fibIter(int n, int &steps) {
     steps = 0;
