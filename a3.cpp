@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// g++ a3.cpp -o a1 && ./a3
 // Items are {value, weight}; fractions of items may be taken.
 double fractionalKnapsack(vector<pair<int, int>> items, int W) {
     sort(items.begin(), items.end(), [](auto &x, auto &y) {
