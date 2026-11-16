@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+//g++ a2.cpp -o a1 && ./a2
 // Jobs are {deadline, profit}; each takes one time slot.
 int jobSequencing(vector<pair<int, int>> jobs) {
     sort(jobs.begin(), jobs.end(), [](auto &x, auto &y) {
