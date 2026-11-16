@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+// g++ a4.cpp -o a1 && ./a4
 // 0/1 knapsack: each item can be selected at most once.
 int knapsack01(vector<int> wt, vector<int> val, int W) {
     int n = wt.size();
